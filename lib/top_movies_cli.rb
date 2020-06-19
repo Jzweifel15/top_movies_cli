@@ -1,6 +1,3 @@
-require "top_movies_cli/version"
+require_relative 'top_movies_cli/version'
+require_relative './top_movies_cli/cli'
 
-module TopMoviesCli
-  class Error < StandardError; end
-  # Your code goes here...
-end

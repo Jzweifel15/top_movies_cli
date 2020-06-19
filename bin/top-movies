@@ -1,0 +1,4 @@
+#!/user/bin/env ruby
+require './lib/top_movies_cli'
+
+TopMoviesCli::CLI.new.call

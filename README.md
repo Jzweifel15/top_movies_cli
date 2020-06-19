@@ -1,8 +1,14 @@
+HELLO WORLD!
+
 # TopMoviesCli
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/top_movies_cli`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem is the first portfolio project for Flatiron Schools Online Software Engineering program that allows students to progress to the next module of the cohort.
 
-TODO: Delete this and the text above, and describe your gem
+The Top Movies CLI program will scrape data from the Rotten Tomatoes webpage on the top grossing movies of all time. A list of mvoies will be displayed in the command line for the user to choose from and get more information on each movie of choice.
+
+## Usage
+
+So far, I have only set up a small rough draft of how the program will be set up. The code seen so far is not the final product. 25:16
 
 ## Installation
 
@@ -19,10 +25,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install top_movies_cli
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
