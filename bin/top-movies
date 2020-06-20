@@ -1,4 +1,6 @@
 #!/user/bin/env ruby
-require './lib/top_movies_cli'
+require "bundler/setup"
+require "top_movies_cli"
+#require './lib/top_movies_cli'
 
 TopMoviesCli::CLI.new.call

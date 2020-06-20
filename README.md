@@ -4,11 +4,15 @@ HELLO WORLD!
 
 This gem is the first portfolio project for Flatiron Schools Online Software Engineering program that allows students to progress to the next module of the cohort.
 
-The Top Movies CLI program will scrape data from the Rotten Tomatoes webpage on the top grossing movies of all time. A list of mvoies will be displayed in the command line for the user to choose from and get more information on each movie of choice.
+The Top Movies CLI program will scrape data from the Rotten Tomatoes webpage on the top 50 grossing movies of all time. A list of movies will be displayed in the command line for the user to choose from and get more information, like the title, the total dollar value, the original release date, and a description, on each movie of choice.
 
 ## Usage
 
-So far, I have only set up a small rough draft of how the program will be set up. The code seen so far is not the final product. 25:16
+6/20/20 11:54
+Project is still in its rough draft stage, but the rough draft is getting closer to its final form. Data is still somewhat hard coded, however, each movie can now be found as an object. At this point, still no scraping from the Rotten Tomatoes webpage.
+
+6/19/20 20:36
+So far, I have only set up a small rough draft of how the program will be set up. The code seen so far is not the final product.
 
 ## Installation
 
