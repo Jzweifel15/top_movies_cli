@@ -8,6 +8,9 @@ The Top Movies CLI program will scrape data from the Rotten Tomatoes webpage on 
 
 ## Usage
 
+6/20/20 14:49
+Project is still in its rough draft state. I required the Nokogiri and Open-URI modules to allow the program to scrape from a webpage, which I have finally implemented a method that scrapes from the Rotten Tomatoes webpage. I played around inside a Repl.it sandbox to ensure that the data I scrape is the correct data.
+
 6/20/20 11:54
 Project is still in its rough draft stage, but the rough draft is getting closer to its final form. Data is still somewhat hard coded, however, each movie can now be found as an object. At this point, still no scraping from the Rotten Tomatoes webpage.
 
