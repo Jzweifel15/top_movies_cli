@@ -8,6 +8,13 @@ The Top Movies CLI program will scrape data from the Rotten Tomatoes webpage on 
 
 ## Usage
 
+6/22/20 16:58
+Today, I have successfully created a MovieScraper class and a Movie class. The MovieScraper class has a class method that takes in an argument of a URL (the URL that the gem scrapes from to get its data), uses the Nokogiri and Open-URI gems to collect the information we need (title, value, release date, and description), then iterates through the data and creates a hash to store each movie's information, and pushes each instance to an array. This array will allow us to have access and see each instance that got created.
+
+Next, the Movie class will allow us to take each key/value pair from the hash that was in the MovieScraper class and turn each instance into a movie object.
+
+The CLI class is the last class that needs to be touched up on to make the gem fully operational. So far, I have successfully been able display a greeting message for the user and display the entire list of Movies in their proper order, as well as, show each movie's title.
+
 6/20/20 14:49
 Project is still in its rough draft state. I required the Nokogiri and Open-URI modules to allow the program to scrape from a webpage, which I have finally implemented a method that scrapes from the Rotten Tomatoes webpage. I played around inside a Repl.it sandbox to ensure that the data I scrape is the correct data.
 
