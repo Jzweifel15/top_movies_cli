@@ -15,7 +15,6 @@ class TopMoviesCli::CLI
 
     def make_movie
         movies = TopMoviesCli::MovieScraper.scrape_movie(URL)
-        #values = TopMoviesCli::MovieScraper.scrape_movie_value(URL)
         TopMoviesCli::Movie.create(movies)
     end
 

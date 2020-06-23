@@ -15,17 +15,4 @@ class TopMoviesCli::MovieScraper
 
     end
 
-    #def self.scrape_movie_value(url)
-        #page = Nokogiri::HTML(URI.open(url))
-        #values = []
-
-        #page.css("div.articleContentBody").each do |value|
-            #value = movie.css("h2 strong").text
-            #values.push({value: value})
-        #end
-
-        #values
-
-    #end
-
 end

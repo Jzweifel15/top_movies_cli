@@ -8,11 +8,6 @@ class TopMoviesCli::Movie
         movie_hash.each do |key, value|
             self.send("#{key}=", value)
         end
-
-        #value_hash.each do |key, value|
-            #self.send("#{key}=", value)
-        #end
-
         @@all.push(self)
     end
 
