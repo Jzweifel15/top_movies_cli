@@ -1,6 +1,6 @@
 class TopMoviesCli::Movie 
 
-    attr_accessor :title, :value, :release_date, :description
+    attr_accessor :title, :release_date, :description
 
     @@all = []
 
@@ -8,6 +8,11 @@ class TopMoviesCli::Movie
         movie_hash.each do |key, value|
             self.send("#{key}=", value)
         end
+
+        #value_hash.each do |key, value|
+            #self.send("#{key}=", value)
+        #end
+
         @@all.push(self)
     end
 
